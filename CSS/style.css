@@ -1,8 +1,24 @@
+.contenedor-welcome{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    position: relative;
+    left: 400px;
+    flex-direction: column;
+    padding-left: 150px;
+    background-color: #6156Db;
+    height: 635px;
+}
+
+.letra{
+    color:white;
+    margin-bottom: 40px;
+}
+
 .contenedor-create{
     text-align: center;
     flex-wrap: wrap;
     justify-items: center;
-    border: 3px solid blue;
     position: relative;
     left: 400px;
     width: 600px;
@@ -10,21 +26,39 @@
 
 .create{
     width: 600px;
-    height: 200px;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
 }
 
-.create-input{
+.create-input,{
     width: 300px;
     font-size: 1rem;
     margin: 5px 0 5px 0;
+    background-color: rgb(237, 237, 237);
+    height: 40px;
 
 }
 
-.boton-sing-up{
-    margin-top: 20px;
+.boton-sing-up,{
+    margin-top: 40px;
     border-radius: 30px;
-    background-color: ;
+    width: 150px;
+    background-color: rgb(90, 90, 90);
+    color: white;
+    height: 37px;
+
+}
+
+#in{
+    margin-right: 20px;
+}
+
+.boton-sing-in{
+    margin-top: 40px;
+    border-radius: 30px;
+    width: 180px;
+    background-color: #68649C;
+    color: white;
+    height: 40px;
 }
