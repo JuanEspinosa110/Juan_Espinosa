@@ -1,0 +1,30 @@
+.contenedor-create{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-items: center;
+    border: 3px solid blue;
+    position: relative;
+    left: 400px;
+    width: 600px;
+}
+
+.create{
+    width: 600px;
+    height: 200px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.create-input{
+    width: 300px;
+    font-size: 1rem;
+    margin: 5px 0 5px 0;
+
+}
+
+.boton-sing-up{
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: ;
+}
