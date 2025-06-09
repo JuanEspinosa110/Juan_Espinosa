@@ -8,26 +8,38 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 </head>
 <body>
-    <div>
-        <form action="" method="">
+    <div class="contenedor-formulario">
 
-            <label for="documento">Ingrese su documento</label>
-            <input class="create-input" type="number" id="documento" name="documento" placeholder="Documento"/>
+        <div class="formulario">
+            <h2 class="tittle">FORMULARIO</h2>
 
-            <label for="name">Ingrese su nombre</label>
-            <input class="create-input" type="text" id="name" name=" name" placeholder="Name"/>
+            <form  action="" method="get">
 
-            <label for="edad">Ingrese su edad</label>
-            <input class="create-input" type="number" id="edad" name="edad" placeholder="Age"/>
+                <label class="label" for="documento">Ingrese su documento</label>
+                <br>
+                <input class="formulario-input" type="number" id="documento" name="documento" placeholder="Documento"/>
+                <br>
+                <label class="label" for="name">Ingrese su nombre</label>
+                <br>
+                <input class="formulario-input" type="text" id="name" name=" name" placeholder="Name"/>
+                <br>
+                <label class="label"l for="edad">Ingrese su edad</label>
+                <br>
+                <input class="formulario-input" type="number" id="edad" name="edad" placeholder="Age"/>
+                <br>
+                <label class="label" for="email">Ingrese su correo</label>
+                <br>
+                <input class="formulario-input" type="email" id="email" name="email" placeholder="Email"/>
+                <br>
+                <label class="label" for="email">Ingrese su contraseña</label>
+                <br>
+                <input class="formulario-input" type="password" id="password" name="password" placeholder="Password"/>
+                <br>
+                <a class="boton-formulario" type="submit" href="index.html">SING IN</a>
+            </form>
 
-            <label for="email">Ingrese su correo</label>
-            <input class="create-input" type="email" id="email" name="email" placeholder="Email"/>
-
-            <label for="email">Ingrese su contraseña</label>
-            <input class="create-input" type="password" id="password" name="password" placeholder="Password"/>
-            
-        </form>
-
+        </div>
     </div>
+    
 </body>
 </html>

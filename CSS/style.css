@@ -75,3 +75,58 @@
     margin-bottom: 70px;
     color: white;
 }
+
+.formulario{
+    display: block;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 3px solid black;
+    width: 550px;
+    height: 600px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: #68649C;
+}
+
+.contenedor-formulario{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+
+}
+
+.formulario-input{
+    width: 300px;
+    font-size: 1rem;
+    margin-top:15px;
+    background-color: rgb(237, 237, 237);
+    height: 40px;
+    padding-left: 30px;
+}
+
+.tittle{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+
+}
+
+.boton-formulario{
+    text-align: center;
+    background-color:#53525C;
+    border: 3px solid black;
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    margin: 50px 60px 0 200px;
+    color: white;
+
+}
